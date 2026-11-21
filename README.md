@@ -6,8 +6,8 @@ Tahun pelajaran: 2026/2027
 
 ## Identitas Siswa
 
-- Nama: 
-- NIS: 
+- Nama: Raja Muhammad Habibi
+- NIS: 4498
 - Kelas: XI RPL 2
 
 ## Deskripsi Aplikasi
