@@ -14,28 +14,26 @@
 /* TODO CSS-01: Atur jenis font, warna teks, warna latar belakang,
    margin, dan padding dasar halaman. */
 body {
-<<<<<<< HEAD
-=======
+
   font-family: Arial, Helvetica, sans-serif;
   color: #1f2937;
   background-color: #1c3464;
   margin: 0;
   padding: 24px 16px;
   line-height: 1.5;
->>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
 }
 
 /* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
    border dan border-radius seperlunya. */
 .container {
-<<<<<<< HEAD
+
 }
 
 .kepala-halaman {
 }
 
 .panel {
-=======
+
   max-width: 640px;
   margin: 0 auto;
   padding: 24px;
@@ -78,7 +76,7 @@ body {
 /* TODO CSS-03: Atur ukuran input, padding, jarak antar elemen,
    warna tombol, dan tampilan yang konsisten. */
 .form-baris {
-<<<<<<< HEAD
+
 }
 
 .form-baris label {
@@ -91,7 +89,7 @@ body {
 }
 
 .aksi button {
-=======
+
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -128,13 +126,13 @@ body {
 
 .aksi button:hover {
   background-color: #1d4ed8;
->>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
+
 }
 
 /* TODO CSS-04: Rapikan daftar kegiatan, jumlah kegiatan, dan pesan
    status. Bedakan tampilan status berhasil dan gagal. */
 #daftarKegiatan {
-<<<<<<< HEAD
+
 }
 
 #daftarKegiatan li {
@@ -186,4 +184,3 @@ body {
   color: #991b1b;
   border: 1px solid #fca5a5;
 }
->>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
