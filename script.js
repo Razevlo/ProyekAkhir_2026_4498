@@ -26,17 +26,17 @@ function tampilkanKegiatan(daftar) {
   // TODO JS-01:
   // Perbaiki batas perulangan for berikut agar dimulai dari indeks pertama
   // dan memproses seluruh elemen berdasarkan panjang Array (length).
-<<<<<<< HEAD
+
   for (let i = 0; i < 0; i++) {
     // TODO JS-02:
     // Ganti string kosong dengan elemen Array 'daftar' pada indeks i.
     const namaKegiatan = "";
-=======
+
   for (let i = 0; i < daftar.length; i++) {
     // TODO JS-02:
     // Ganti string kosong dengan elemen Array 'daftar' pada indeks i.
     const namaKegiatan = daftar[i];
->>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
+
 
     // Disediakan guru: pembentukan dan penampilan elemen HTML.
     const item = document.createElement("li");
@@ -127,9 +127,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Area penambahan Function untuk pertemuan berikutnya akan diberikan
 // oleh guru pada saat paket soal berikutnya dibagikan.
-<<<<<<< HEAD
-=======
-
 // =====================================================================
 // KERANGKA SOAL SABTU, 21 NOVEMBER 2026
 // Tambahkan blok ini pada AKHIR script.js hasil Checkpoint 1 (17 Nov).
@@ -187,4 +184,3 @@ function hitungJumlahKegiatan(daftar) {
   // TODO JS-09: Gunakan length dan return untuk menghasilkan jumlah kegiatan.
   return daftar.length;
 }
->>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
