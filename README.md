@@ -1,13 +1,22 @@
 # Proyek Akhir Semester Ganjil — Pengelolaan Kegiatan Kelas
 
+<<<<<<< HEAD
 Kelas: XI RPL 2  
 Mata pelajaran: Pemrograman Web  
+=======
+Kelas: XI RPL 2
+Mata pelajaran: Pemrograman Web
+>>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
 Tahun pelajaran: 2026/2027
 
 ## Identitas Siswa
 
 - Nama: Raja Muhammad Habibi
+<<<<<<< HEAD
 - NIS: 4498
+=======
+- NIS:4498
+>>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
 - Kelas: XI RPL 2
 
 ## Deskripsi Aplikasi

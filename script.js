@@ -26,10 +26,17 @@ function tampilkanKegiatan(daftar) {
   // TODO JS-01:
   // Perbaiki batas perulangan for berikut agar dimulai dari indeks pertama
   // dan memproses seluruh elemen berdasarkan panjang Array (length).
+<<<<<<< HEAD
   for (let i = 0; i < 0; i++) {
     // TODO JS-02:
     // Ganti string kosong dengan elemen Array 'daftar' pada indeks i.
     const namaKegiatan = "";
+=======
+  for (let i = 0; i < daftar.length; i++) {
+    // TODO JS-02:
+    // Ganti string kosong dengan elemen Array 'daftar' pada indeks i.
+    const namaKegiatan = daftar[i];
+>>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
 
     // Disediakan guru: pembentukan dan penampilan elemen HTML.
     const item = document.createElement("li");
@@ -120,3 +127,64 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Area penambahan Function untuk pertemuan berikutnya akan diberikan
 // oleh guru pada saat paket soal berikutnya dibagikan.
+<<<<<<< HEAD
+=======
+
+// =====================================================================
+// KERANGKA SOAL SABTU, 21 NOVEMBER 2026
+// Tambahkan blok ini pada AKHIR script.js hasil Checkpoint 1 (17 Nov).
+// Jangan menghapus/mengganti kode yang sudah dikerjakan pada 17 Nov.
+// Hapus baris return sementara setelah logika TODO yang sesuai lengkap.
+// =====================================================================
+
+// TODO JS-03, JS-04, JS-05 — Validasi dan penambahan kegiatan
+function tambahKegiatan(daftar, nama) {
+  // TODO JS-03: Simpan nama yang sudah di-trim ke variabel namaBersih.
+  // Jika namaBersih kosong, gunakan return false.
+  const namaBersih = nama.trim();
+  if (namaBersih === "") {
+    return false;
+  }
+
+  // TODO JS-04: Gunakan includes() untuk menolak nama duplikat.
+  // Jika kegiatan sudah ada, gunakan return false.
+  if (daftar.includes(namaBersih)) {
+    return false;
+  }
+
+  // TODO JS-05: Gunakan push() untuk menambahkan namaBersih.
+  // Jika penambahan berhasil, gunakan return true.
+  daftar.push(namaBersih);
+  return true;
+}
+
+// TODO JS-06 — Pencarian kegiatan
+function cariKegiatan(daftar, nama) {
+  // TODO JS-06: Hilangkan spasi awal/akhir menggunakan trim().
+  // Cari posisi kegiatan dengan indexOf(), lalu kembalikan indeksnya.
+  // Jika tidak ditemukan, indexOf() akan menghasilkan -1.
+  return daftar.indexOf(nama.trim());
+}
+
+// TODO JS-07 dan JS-08 — Penghapusan kegiatan
+function hapusKegiatan(daftar, nama) {
+  // TODO JS-07: Panggil cariKegiatan(daftar, nama).
+  // Simpan hasilnya dalam variabel indeks.
+  const indeks = cariKegiatan(daftar, nama);
+
+  // TODO JS-08: Jika indeks bernilai -1, gunakan return false.
+  // Jika ditemukan, hapus satu elemen menggunakan splice().
+  // Kembalikan true jika penghapusan berhasil.
+  if (indeks === -1) {
+    return false;
+  }
+  daftar.splice(indeks, 1);
+  return true;
+}
+
+// TODO JS-09 — Menghitung jumlah kegiatann
+function hitungJumlahKegiatan(daftar) {
+  // TODO JS-09: Gunakan length dan return untuk menghasilkan jumlah kegiatan.
+  return daftar.length;
+}
+>>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)

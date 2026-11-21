@@ -14,22 +14,71 @@
 /* TODO CSS-01: Atur jenis font, warna teks, warna latar belakang,
    margin, dan padding dasar halaman. */
 body {
+<<<<<<< HEAD
+=======
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  background-color: #1c3464;
+  margin: 0;
+  padding: 24px 16px;
+  line-height: 1.5;
+>>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
 }
 
 /* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
    border dan border-radius seperlunya. */
 .container {
+<<<<<<< HEAD
 }
 
 .kepala-halaman {
 }
 
 .panel {
+=======
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+}
+
+.kepala-halaman {
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #2563eb;
+}
+
+.kepala-halaman h1 {
+  margin: 0 0 6px;
+  font-size: 1.6rem;
+  color: #1e3a8a;
+}
+
+.kepala-halaman p {
+  margin: 0;
+  color: #4b5563;
+}
+
+.panel {
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #f9fafb;
+}
+
+.panel h2 {
+  margin: 0 0 12px;
+  font-size: 1.15rem;
+>>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
 }
 
 /* TODO CSS-03: Atur ukuran input, padding, jarak antar elemen,
    warna tombol, dan tampilan yang konsisten. */
 .form-baris {
+<<<<<<< HEAD
 }
 
 .form-baris label {
@@ -42,11 +91,50 @@ body {
 }
 
 .aksi button {
+=======
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.form-baris label {
+  font-weight: bold;
+}
+
+.form-baris input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+}
+
+.aksi {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.aksi button {
+  padding: 10px 18px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.aksi button:hover {
+  background-color: #1d4ed8;
+>>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
 }
 
 /* TODO CSS-04: Rapikan daftar kegiatan, jumlah kegiatan, dan pesan
    status. Bedakan tampilan status berhasil dan gagal. */
 #daftarKegiatan {
+<<<<<<< HEAD
 }
 
 #daftarKegiatan li {
@@ -63,3 +151,39 @@ body {
 
 #pesanStatus.gagal {
 }
+=======
+  margin: 0 0 12px;
+  padding-left: 24px;
+}
+
+#daftarKegiatan li {
+  padding: 8px 4px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ringkasan {
+  margin: 0 0 12px;
+  font-weight: bold;
+}
+
+#pesanStatus {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+#pesanStatus.berhasil {
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+}
+
+#pesanStatus.gagal {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+>>>>>>> c6bd6c3 (Final:selesai menyelesaikan fitur tambah,kurang,cari)
